@@ -2,10 +2,10 @@
 
 Varsity Vault is a comprehensive, role-based high school athletics management platform built with Flutter and Firebase. It centralizes student medical clearances, roster management, equipment tracking, and game scheduling into a single secure ecosystem.
 
-## 🌐 Live Demo
+## Live Demo
 **Access the live application here:** varsityvault-324f5.web.app
 
-## 🌟 Key Features
+## Key Features
 
 The application utilizes a "Many Hats" architecture, dynamically altering the UI and permissions based on the user's assigned role:
 
@@ -16,12 +16,12 @@ The application utilizes a "Many Hats" architecture, dynamically altering the UI
 * **Equipment Attendants:** Scan barcodes to check gear in/out, track outstanding inventory, and automatically assign missing equipment fines to student accounts.
 * **VaultBot AI:** A deeply integrated, context-aware AI assistant powered by Google's Gemini 1.5 Flash. VaultBot can answer dynamic questions about the app's functionality based on the user's current role and trigger interactive UI walkthroughs.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Frontend:** Flutter (Dart) for Web
 * **Backend & Database:** Firebase Authentication, Cloud Firestore
 * **AI Integration:** `google_generative_ai` (Gemini API)
 * **External APIs:** AllOrigins (CORS bypass for iCal syncing)
 
-## 🚀 Deployment Overview
+## Deployment Overview
 This application is deployed and hosted entirely via Firebase Hosting. All role-based data synchronization, user authentication, and AI routing are handled securely in the cloud environment.
